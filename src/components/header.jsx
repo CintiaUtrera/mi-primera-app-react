@@ -5,13 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () =>{
     return (
-    <>
-        <Navbar bg="ligth" variant="dark">
+    
+        <Navbar bg="dark" variant="dark">
             <Container>
             <Navbar.Brand href="#home">
                 <img
                 alt=""
-                src="./public/img/logo192.png"
+                src="./img/logo512.png"
                 width="30"
                 height="30"
                 className="d-inline-block align-top"
@@ -20,7 +20,7 @@ const Header = () =>{
             </Navbar.Brand>
             </Container>
         </Navbar>
-        </>
+        
         );
 };
 

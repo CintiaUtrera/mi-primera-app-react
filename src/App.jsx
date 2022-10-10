@@ -1,12 +1,15 @@
 import React from "react";
-import Layout from "./pages/layout";
+import Header from "./components/header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <>
-    <Layout />
+    <Header />
     </>
   );
 }
 
 export default App;
+
